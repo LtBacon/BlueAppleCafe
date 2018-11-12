@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Main.master.cs" Inherits="Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Blue Apple Cafe</title>
+    <link rel="stylesheet" href="../CSS/Bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="../CSS/Bootstrap/css/bootstrap-grid.css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="MainForm" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="PageContent" runat="server">
+            
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    <script type="text/javascript" src="../JS/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="../CSS/Bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
