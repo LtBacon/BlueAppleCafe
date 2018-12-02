@@ -7,17 +7,18 @@
     <title>Blue Apple Cafe</title>
     <link rel="stylesheet" href="../CSS/Bootstrap/css/bootstrap.css" />
     <link rel="stylesheet" href="../CSS/Bootstrap/css/bootstrap-grid.css" />
+    <link rel="stylesheet" href="../CSS/Style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <asp:ContentPlaceHolder id="head" runat="server">
         
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="MainForm" runat="server">
-    <div>
+           
         <asp:ContentPlaceHolder id="PageContent" runat="server">
             
         </asp:ContentPlaceHolder>
-    </div>
     </form>
     <script type="text/javascript" src="../JS/jquery-3.3.1.js"></script>
     <script type="text/javascript" src="../CSS/Bootstrap/js/bootstrap.js"></script>
